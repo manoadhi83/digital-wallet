@@ -20,3 +20,12 @@ timeline.
 - Idempotency via unique DB constraint
 - Spring Security + JWT
 - Docker + docker-compose
+
+## Development Workflow
+
+`main` is protected — all changes go through a feature branch and a pull request:
+
+1. `git checkout -b feature/<short-description>`
+2. Make changes, commit, `git push -u origin feature/<short-description>`
+3. Open a PR into `main` on GitHub
+4. Merge once required checks pass (squash merge preferred, for a clean history)
