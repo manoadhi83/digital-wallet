@@ -1,6 +1,6 @@
 # Digital Wallet POC
 
-A production-grade Digital Wallet proof-of-concept: wallet balances, deposits, P2P transfers,
+A Digital Wallet proof-of-concept: wallet balances, deposits, P2P transfers,
 transaction history, and — the core differentiator — idempotency and concurrency safety under
 retries and simultaneous requests.
 
